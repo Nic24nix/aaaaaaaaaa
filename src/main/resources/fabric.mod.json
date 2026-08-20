@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nightvisiontoggle",
+  "version": "1.0.0",
+  "name": "Night Vision Toggle",
+  "description": "Alterna visao noturna ao pressionar G.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.exemplo.nightvision.NightVisionMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.26.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
